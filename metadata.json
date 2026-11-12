@@ -1,0 +1,7 @@
+{
+  "uuid": "gesture-invert@stuzor",
+  "name": "Gesture Direction Invert",
+  "description": "Keeps three-finger vertical gestures oriented as if natural scrolling were on, while two-finger scrolling stays traditional.",
+  "shell-version": ["50", "51"],
+  "settings-schema": "org.gnome.shell.extensions.gesture-invert"
+}
