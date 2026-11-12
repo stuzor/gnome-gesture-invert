@@ -58,3 +58,12 @@ GNOME Shell 50.3 (CachyOS), 51.1 (Fedora 45)
 ## License
 
 GPL-2.0-or-later
+
+## When to remove this
+
+GNOME is moving swipes to physical direction, independent of
+`natural-scroll` — see gtk!8836 (merged), libadwaita!1828, and the
+discussion on gnome-shell#8787. Once gnome-shell adopts it, this
+extension double-inverts and recreates the original bug.
+
+Disable it as soon as three-finger-up works without it.
